@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@jupyter-widgets/base > lodash':
+        patched: '2022-10-05T19:34:31.588Z'
+  'npm:moment:20170905':
+    - '@jupyter-widgets/base > @jupyterlab/services > @jupyterlab/coreutils > moment':
+        patched: '2022-10-05T19:34:31.588Z'
